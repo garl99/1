@@ -295,11 +295,12 @@ footer .contenedor .autor hr{
     background: rgba(255, 255, 255, .5);
 }
 
-footer .contenedor .likedin{
-    background: #0077b5;
+footer .contenedor .instagram{
+    padding-top: 5px;
+    background: #3f729b;
 }
 
-footer .contenedor .likedin a,
+footer .contenedor .instagram a,
 footer .contenedor .github a,
 footer .contenedor .gmail a{
     text-decoration: none;
@@ -307,10 +308,12 @@ footer .contenedor .gmail a{
 }
 
 footer .contenedor .github{
+    padding-top: 5px;
     background: #333;
 }
 
 footer .contenedor .gmail{
+    padding-top: 5px;
     background: #ea4335;
 }
 
