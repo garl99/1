@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+body{
+    background-repeat: repeat;
+}
+
+
+.contenedor{
+    overflow: hidden;
+    padding: 0px 20px;
+    margin: auto;
+    width: 100%;
+}
+
+.contenedor-central{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+
+header{
+    background: url('../img/18707-min.jpg');
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 450px;
+    width: 100%;
+    position: relative;
+}
+
+header .ola{
+    position: absolute; 
+    width: 100%; 
+    bottom: -10px;
+}
+
+header .menu{
+    width: 100%;
+    text-align: right;
+    padding: 40px;
+}
+
+header .menu a{
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    margin: 0px 4px;
+    font-size: 16.5px;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+header .menu a:hover{
+    border-bottom: 2px solid #4E94E5
+}
+
+
+header .contenedor-textos{
+    width: 50%;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+header .contenedor-textos .textos{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    padding: 20px 15px;
+    border: 2px solid rgba(255, 255, 255, .3);
+    border-radius: 5px;
+}
+
+header .contenedor-textos .textos h1{
+    font-size: 50px;
+    -webkit-text-stroke: 2px  #000;
+}
+
+
+main{
+    width: 100%;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+main .fondo{
+    position: relative;
+}
+
+main .fondo .img-fondo{
+    width: 280px;
+    position: absolute;
+    bottom: 0%;
+    right: 3%;
+}
+
+main .fondo .contenedor-flex{
+    width: 100%;
+    max-width: 1100px;
+    height: 750px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+main .presentacion{
+    width: 43%;
+    padding: 20px;
+}
+
+
+main .presentacion .foto{
+    width: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+
+main .presentacion .foto img{
+    width: 100%;
+}
+
+main .presentacion .conocimientos{
+    padding: 20px 0;
+    margin-top: 10px;
+    margin-left: 10%;
+    border-radius: 5px;
+}
+
+main .presentacion .conocimientos ul{
+    list-style: disc;
+}
+
+main .presentacion .conocimientos ul li{
+    padding: 10px;
+}
+
+main .presentacion .conocimientos .titulo{
+    font-size: 20px;
+}
+
+main .acerca-de{
+    width: 53%;
+    padding:  0 20px 20px 20px;
+    margin-right: 20px;
+    position: relative;
+}
+
+main > .fondo > .contenedor-flex >.acerca-de > .contenedor > .titulo{
+    color: #000;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 34px;
+}
+
+main > .proyectos > .contenedor-central > .titulo{
+    color: #000;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 34px;
+}
+
+main > .fondo > .contenedor-flex >.acerca-de > .contenedor > p{
+    color: #000;
+    line-height: 35px;
+    font-size: 16px;
+    text-align: center;
+}
+
+main .proyectos{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    background: url('../img/b1.png');
+}
+
+
+main .proyectos .contenedor-proyectos{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main .proyectos .contenedor-proyectos .proyecto{
+    width: 45%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+main .proyectos .contenedor-proyectos .proyecto img{
+    height: 100%;
+    transition: all .5s ease;
+}
+
+main .proyectos .contenedor-proyectos .proyecto .info{
+    display: none;
+}
+
+main .proyectos .contenedor-proyectos .proyecto:hover img{
+    transform: scale(1.1);
+}
+
+main .proyectos .contenedor-proyectos .proyecto:hover .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .5);
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+main .proyectos .contenedor-proyectos .proyecto:hover .info a{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+
+main .proyectos .contenedor-proyectos .proyecto .info a:hover{
+    color: rgba(255, 0, 0, 0.808);
+}
+
+
+
+footer{
+    width: 100%;
+    height: 150px;
+    background: #424F73;
+}
+
+footer .contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+footer .contenedor-contacto{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .contenedor-contacto .contacto{
+    color: #fff;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding-top: 3px;
+    text-align: center;
+    font-size: 34px;
+    border-radius: 100%;
+    margin: 0px 30px;
+    transition: .3s;
+}
+
+footer .contenedor-contacto .contacto:hover{
+    transform: scale(1.1); 
+    -webkit-box-shadow: 0px -2px 78px -4px rgba(78,148,229,1);
+    -moz-box-shadow: 0px -2px 78px -4px rgba(78,148,229,1);
+    box-shadow: 0px -2px 78px -4px rgba(78,148,229,1);   
+}
+
+footer .contenedor .autor p{
+    text-align: center;
+    color: #fff;
+}
+
+footer .contenedor .autor hr{
+    background: rgba(255, 255, 255, .5);
+}
+
+footer .contenedor .likedin{
+    background: #0077b5;
+}
+
+footer .contenedor .likedin a,
+footer .contenedor .github a,
+footer .contenedor .gmail a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .contenedor .github{
+    background: #333;
+}
+
+footer .contenedor .gmail{
+    background: #ea4335;
+}
+
+#particles-js > .particles-js-canvas-el{
+    top: -10px;
+    height: 750px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
