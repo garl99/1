@@ -32,15 +32,16 @@ header{
     background-size: 100% ;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 450px;
     width: 100%;
+    height: 450px;
     position: relative;
 }
 
 header .ola{
     position: absolute; 
     width: 100%; 
-    bottom: -10px;
+    bottom: -1px;
+    vertical-align: top;
 }
 
 header .menu{
@@ -108,7 +109,6 @@ main .fondo .img-fondo{
 main .fondo .contenedor-flex{
     width: 100%;
     max-width: 1100px;
-    height: 750px;
     margin: 0px auto;
     display: flex;
     flex-wrap: nowrap;
@@ -140,7 +140,7 @@ main .presentacion .conocimientos{
 }
 
 main .presentacion .conocimientos ul{
-    list-style: disc;
+    list-style: square;
 }
 
 main .presentacion .conocimientos ul li{
@@ -246,7 +246,6 @@ main .proyectos .contenedor-proyectos .proyecto .info a:hover{
 
 footer{
     width: 100%;
-    height: 150px;
     background: #424F73;
 }
 
@@ -323,6 +322,178 @@ footer .contenedor .gmail{
     position: absolute;
 }
 
+
+@media screen and (max-width:800px){
+
+    header .menu{
+        text-align: center;
+    }
+
+    header .menu a{
+        font-size: 22px
+    }
+
+    header .contenedor-textos .textos h1{
+        font-size: 54px;
+    }
+
+    
+    header .contenedor-textos .textos p{
+        font-size: 20px;
+    }
+
+    main .fondo .contenedor-flex{
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    main .presentacion{
+        width: 100%;
+    }
+
+    main .acerca-de{
+        width: 100%;
+    }
+
+    main .fondo .img-fondo{
+        position: relative;
+        left: 35%;
+        margin-bottom: 20px;
+    }
+
+    #particles-js > .particles-js-canvas-el{
+        display: none;
+    }
+
+    main .presentacion .conocimientos{
+        padding: 20px 20px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    main .presentacion .conocimientos .titulo{
+        color: #000;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 34px;
+    }
+
+    main > .fondo > .contenedor-flex >.acerca-de > .contenedor > p{
+        font-size: 20px;
+        padding: 0 50px;
+    }
+
+    main .presentacion .conocimientos ul {
+        padding: 0 70px;
+    }
+    main .presentacion .conocimientos ul li{
+        font-size: 20px;
+    }
+    
+
+    main .proyectos .contenedor-proyectos .proyecto{
+        width: 80%;
+    }
+
+    footer .contenedor .autor p{
+       font-size: 20px;
+    }
+
+    
+    
+}
+
+@media screen and (max-width:450px){
+
+    header{
+        height: 220px;
+    }
+
+    header .menu{
+        padding-top: 15px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    header .contenedor-textos{
+        width: 300px;
+        padding: 0;
+        
+    }
+    header .contenedor-textos .textos h1{
+        font-size: 24px;
+        -webkit-text-stroke: 0px  #000;
+    }
+
+    header .contenedor-textos .textos p{
+        font-size: 16px;
+        padding:  0 20px;
+        
+    }
+    
+    header .contenedor-textos .textos{
+        width: 100%;
+        padding: 5px 0px;
+        position: relative;
+        margin: 0;
+        top: 10px;
+        
+    }
+
+    header .menu a{
+        font-size: 16px
+    }
+
+    main .presentacion .foto{
+        width: 150px;
+    }
+
+    main .presentacion .conocimientos .titulo{
+        font-size: 24px;
+    }
+
+    main .presentacion .conocimientos ul {
+        padding: 0;
+    }
+
+
+    main > .fondo > .contenedor-flex >.acerca-de > .contenedor > p{
+       padding: 0;
+    }
+    main > .proyectos > .contenedor-central > .titulo{
+        padding: 20px 0;
+        font-size: 24px;
+    }
+
+    main > .fondo > .contenedor-flex >.acerca-de > .contenedor > .titulo{
+        font-size: 24px;
+    }
+
+    main .fondo .img-fondo{
+        position: relative;
+        left: 15%;
+        width: 250px;
+        margin-bottom: 20px;
+    }
+
+    footer .contenedor .instagram,
+    footer .contenedor .github,
+    footer .contenedor .gmail{
+        margin: 0;
+        margin-left: 10px;
+    }
+
+    main .proyectos .contenedor-proyectos .proyecto{
+        width: 95%;
+    }
+
+    footer .contenedor .autor p{
+        font-size: 16px;
+     }
+
+}
 
 
 

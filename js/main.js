@@ -118,15 +118,15 @@ $(document).ready(function(){
 
   /*------Animacion inicial-----*/
 
-  $('main .fondo .img-fondo').css({
-    opacity:0
-  });
-
-  $('main .fondo .contenedor-flex .presentacion .contenedor .foto img').css({
-    opacity: 0
-  });
-
   if (windowWidth > 800) {
+
+    $('main .fondo .img-fondo').css({
+      opacity:0
+    });
+  
+    $('main .fondo .contenedor-flex .presentacion .contenedor .foto img').css({
+      opacity: 0
+    });
 
       $('main .fondo .contenedor-flex .presentacion .contenedor .foto img').animate({
         opacity: 1
