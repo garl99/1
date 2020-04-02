@@ -333,6 +333,11 @@ footer .contenedor .gmail{
         font-size: 22px
     }
 
+    header .ola{
+        position: absolute;
+        bottom: -3px;
+    }
+
     header .contenedor-textos .textos h1{
         font-size: 54px;
     }
@@ -417,6 +422,11 @@ footer .contenedor .gmail{
         padding-right: 5px;
     }
 
+    header .ola{
+        position: absolute;
+        bottom: -3px;
+    }
+
     header .contenedor-textos{
         width: 300px;
         padding: 0;
@@ -493,6 +503,14 @@ footer .contenedor .gmail{
         font-size: 16px;
      }
 
+}
+
+@media screen and (max-width:321px){
+    
+    header .ola{
+        position: absolute;
+        bottom: -3px;
+    }
 }
 
 
