@@ -11,6 +11,10 @@ body{
     background-repeat: repeat;
 }
 
+.fonts{
+    font-family: 'Rubik', sans-serif;
+}
+
 
 .contenedor{
     overflow: hidden;

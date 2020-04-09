@@ -149,22 +149,6 @@ $(document).ready(function(){
   });
 
 
-  if ($(window).width()>800) {
-
-    $('header .contenedor-textos .textos').css({
-      bottom: '10%',
-      opacity: 0
-      
-    });
-
-    $('header .contenedor-textos .textos').animate({
-      bottom: '30%',
-      opacity: 1
-    }, 3000);
-
-  }
-
-
   /*------Botones del menu-------*/
   var acercaDe = $('#acercaDe').offset().top;
   var proyectos= $('#proyectos').offset().top;
