@@ -65,3 +65,15 @@
   content: "\e901";
   color: #21759b;
 }
+.icon-books:before {
+  content: "\e920";
+}
+.icon-bubbles:before {
+  content: "\e96c";
+}
+.icon-embed:before {
+  content: "\ea7f";
+}
+.icon-embed2:before {
+  content: "\ea80";
+}
