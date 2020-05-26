@@ -19,30 +19,12 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  
-  /* Enable Ligatures ================ */
-  letter-spacing: 0;
-  -webkit-font-feature-settings: "liga";
-  -moz-font-feature-settings: "liga=1";
-  -moz-font-feature-settings: "liga";
-  -ms-font-feature-settings: "liga" 1;
-  font-feature-settings: "liga";
-  -webkit-font-variant-ligatures: discretionary-ligatures;
-  font-variant-ligatures: discretionary-ligatures;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-git:before {
-  content: "\e909";
-  color: #f05032;
-}
-.icon-bootstrap:before {
-  content: "\e901";
-  color: #563d7c;
-}
 .icon-php:before {
   content: "\e902";
   color: #777bb4;
@@ -51,57 +33,35 @@
   content: "\e903";
   color: #f7df1e;
 }
-.icon-sass:before {
+.icon-bootstrap:before {
   content: "\e904";
+  color: #563d7c;
+}
+.icon-jquery:before {
+  content: "\e905";
+  color: #0769ad;
+}
+.icon-sass:before {
+  content: "\e906";
   color: #c69;
 }
 .icon-css3:before {
-  content: "\e905";
+  content: "\e907";
   color: #1572b6;
 }
 .icon-html5:before {
-  content: "\e906";
+  content: "\e908";
   color: #e34f26;
 }
-.icon-angular:before {
-  content: "\e907";
-  color: #dd0031;
+.icon-git:before {
+  content: "\e909";
+  color: #f05032;
 }
-.icon-jquery:before {
-  content: "\e908";
-  color: #0769ad;
-}
-.icon-laravel:before {
+.icon-typescript:before {
   content: "\e900";
-  color: #ff2d20;
+  color: #007acc;
 }
-.icon-books:before {
-  content: "\e920";
-}
-.icon-bubbles:before {
-  content: "\e96c";
-}
-.icon-user-tie:before {
-  content: "\e976";
-}
-.icon-search:before {
-  content: "\e986";
-}
-.icon-menu3:before {
-  content: "\e9bf";
-}
-.icon-info:before {
-  content: "\ea0c";
-}
-.icon-embed:before {
-  content: "\ea7f";
-}
-.icon-embed2:before {
-  content: "\ea80";
-}
-.icon-github:before {
-  content: "\eab0";
-}
-.icon-git1:before {
-  content: "\eae7";
+.icon-wordpress:before {
+  content: "\e901";
+  color: #21759b;
 }
