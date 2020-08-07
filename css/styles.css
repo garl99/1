@@ -306,7 +306,9 @@ footer .contenedor .instagram{
 
 footer .contenedor .instagram a,
 footer .contenedor .github a,
-footer .contenedor .gmail a{
+footer .contenedor .gmail a,
+footer .contenedor .ws a
+{
     text-decoration: none;
     color: #fff;
 }
@@ -319,6 +321,11 @@ footer .contenedor .github{
 footer .contenedor .gmail{
     padding-top: 5px;
     background: #ea4335;
+}
+
+footer .contenedor .ws{
+    padding-top: 5px;
+    background: #25d366;
 }
 
 #particles-js > .particles-js-canvas-el{
