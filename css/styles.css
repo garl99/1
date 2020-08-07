@@ -230,16 +230,21 @@ main .proyectos .contenedor-proyectos .proyecto:hover .info{
 
 main .proyectos .contenedor-proyectos .proyecto:hover .info a{
     display: inline-block;
-    padding: 10px;
-    margin: 10px;
+    padding: 15px;
+    margin: 5px;
     background: rgba(0, 0, 0, .5);
     border-radius: 100%;
     text-decoration: none;
     color: #fff;
 }
 
+main .proyectos .contenedor-proyectos .proyecto .info a i{
+    font-size: 16px;
+
+}
+
 main .proyectos .contenedor-proyectos .proyecto .info a:hover{
-    color: rgba(255, 0, 0, 0.808);
+    color: rgba(143, 170, 229, 0.808);
 }
 
 

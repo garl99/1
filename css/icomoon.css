@@ -58,18 +58,21 @@
   color: #f05032;
 }
 .icon-typescript:before {
-  content: "\e900";
+  content: "\e901";
   color: #007acc;
 }
 .icon-wordpress:before {
-  content: "\e901";
+  content: "\e90a";
   color: #21759b;
 }
 .icon-books:before {
   content: "\e920";
 }
-.icon-bubbles:before {
-  content: "\e96c";
+.icon-bubbles2:before {
+  content: "\e96d";
+}
+.icon-search:before {
+  content: "\e986";
 }
 .icon-embed:before {
   content: "\ea7f";
@@ -77,3 +80,4 @@
 .icon-embed2:before {
   content: "\ea80";
 }
+
