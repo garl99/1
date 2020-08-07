@@ -118,21 +118,7 @@ $(document).ready(function(){
 
   /*------Animacion inicial-----*/
 
-  if (windowWidth > 800) {
 
-    $('main .fondo .img-fondo').css({
-      opacity:0
-    });
-  
-    $('main .fondo .contenedor-flex .presentacion .contenedor .foto img').css({
-      opacity: 0
-    });
-
-      $('main .fondo .contenedor-flex .presentacion .contenedor .foto img').animate({
-        opacity: 1
-      }, 3000);
-    
-  }
 
   $('.menu a').each(function(index){
 
@@ -148,11 +134,6 @@ $(document).ready(function(){
 
   });
 
-
-  /*------Botones del menu-------*/
-  var acercaDe = $('#acercaDe').offset().top;
-  var proyectos= $('#proyectos').offset().top;
-  var contacto= $('#contacto').offset().top;
 
   
   $('#btn-acercaDe').on('click',function(e){
