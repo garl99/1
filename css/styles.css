@@ -380,7 +380,9 @@ footer .contenedor .ws{
     }
 
     #particles-js > .particles-js-canvas-el{
-        display: none;
+        top: 10px;
+        left: 0;
+        position: absolute;
     }
 
     main .presentacion .conocimientos{
