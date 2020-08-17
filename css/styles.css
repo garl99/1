@@ -502,7 +502,8 @@ footer .contenedor .ws{
 
     footer .contenedor .instagram,
     footer .contenedor .github,
-    footer .contenedor .gmail{
+    footer .contenedor .gmail,
+    footer .contenedor .ws{
         margin: 0;
         margin-left: 10px;
     }
