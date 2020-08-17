@@ -523,6 +523,13 @@ footer .contenedor .ws{
     header .ola{
         display: none;
     }
+
+    footer .contenedor-contacto .contacto{
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
 }
 
 
